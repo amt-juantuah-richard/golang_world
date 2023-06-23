@@ -8,7 +8,7 @@ import (
 var pl = fmt.Println
 
 func main() {
-	word := "Universal entity of ascii letters"
+	var word = "Universal entity of ascii letters"
 
 	// length of string
 	pl("Length of the string is", len(word))
